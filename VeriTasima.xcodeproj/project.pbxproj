@@ -14,6 +14,7 @@
 		FAF26DBF1C831074002A0442 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF26DBD1C831074002A0442 /* LaunchScreen.storyboard */; };
 		FAF26DCA1C831074002A0442 /* VeriTasimaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26DC91C831074002A0442 /* VeriTasimaTests.swift */; };
 		FAF26DD51C831074002A0442 /* VeriTasimaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26DD41C831074002A0442 /* VeriTasimaUITests.swift */; };
+		FAF26DE51C831156002A0442 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26DE41C831156002A0442 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FAF26DD01C831074002A0442 /* VeriTasimaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeriTasimaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF26DD41C831074002A0442 /* VeriTasimaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeriTasimaUITests.swift; sourceTree = "<group>"; };
 		FAF26DD61C831074002A0442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF26DE41C831156002A0442 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		FAF26DB31C831074002A0442 /* VeriTasima */ = {
 			isa = PBXGroup;
 			children = (
+				FAF26DE41C831156002A0442 /* SecondViewController.swift */,
 				FAF26DB41C831074002A0442 /* AppDelegate.swift */,
 				FAF26DB61C831074002A0442 /* ViewController.swift */,
 				FAF26DB81C831074002A0442 /* Main.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAF26DE51C831156002A0442 /* SecondViewController.swift in Sources */,
 				FAF26DB71C831074002A0442 /* ViewController.swift in Sources */,
 				FAF26DB51C831074002A0442 /* AppDelegate.swift in Sources */,
 			);
